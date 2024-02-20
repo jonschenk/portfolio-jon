@@ -1,20 +1,14 @@
-import SocialButton from "./components/social-button";
-
 function App() {
   return (
-    <div>
-      <div className="socials-container">
-        <SocialButton
-          url="https://github.com/jonschenk"
-          icon="src/assets/github.png"
-        />
-
-        <SocialButton
-          url="https://www.linkedin.com/in/jonschenkjr/"
-          icon="src/assets/linkedin.png"
-        />
-      </div>
-    </div>
+    // Navbar container
+    // Socials container
+    //     Socials buttons
+    // About container
+    // Projects container
+    //     Project cards
+    // Contact container
+    // Footer container
+    <div></div>
   );
 }
 
