@@ -3,7 +3,17 @@ import SocialButton from "./components/social-button";
 function App() {
   return (
     <div>
-      <SocialButton url="test" icon="test"></SocialButton>
+      <div className="socials-container">
+        <SocialButton
+          url="https://github.com/jonschenk"
+          icon="src/assets/github.png"
+        />
+
+        <SocialButton
+          url="https://www.linkedin.com/in/jonschenkjr/"
+          icon="src/assets/linkedin.png"
+        />
+      </div>
     </div>
   );
 }
