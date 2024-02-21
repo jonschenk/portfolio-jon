@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item img {
+    width: 75%;
+    order: 1;
+}
+
+.item h3, .item p {
+    order: 2;
+}
+
+.item h3 {
+    letter-spacing: .4em;
+}
+
+.item p {
+    letter-spacing: .1em;
+}
+
+.item .details {
+    display: flex;
+    flex-direction: column;
+}

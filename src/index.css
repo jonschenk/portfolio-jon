@@ -1,6 +1,9 @@
-html {
-  background: rgb(25,24,31);
-  background: linear-gradient(180deg, rgba(25,24,31,1) 7%, rgba(47,47,47,1) 51%, rgba(25,24,31,1) 100%);
+html body {
+  color: aliceblue;
+  background: url("./assets/bg/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100%;
   height: auto;
 }

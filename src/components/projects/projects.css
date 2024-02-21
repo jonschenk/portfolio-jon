@@ -1,0 +1,8 @@
+.Proj-Container h1 {
+    margin-bottom: 5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 2em;
+    letter-spacing: .4em;
+}

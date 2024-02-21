@@ -1,10 +1,12 @@
-body {
-    height: 100vh;
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 .intro h1 {
     color:aliceblue;
@@ -13,18 +15,10 @@ body {
 
 .intro h2 {
     background-color: transparent;
-    color:aliceblue;
     letter-spacing: .2em;
 }
 
 .intro h2 span {
-    color:gold;
+    color:rgb(248, 95, 95);
     letter-spacing: .2em;
-}
-
-.intro p {
-    margin-top: 2%;
-    text-size-adjust: 120%;
-    color:aliceblue;
-    letter-spacing: .1em;
 }
