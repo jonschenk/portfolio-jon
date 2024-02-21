@@ -2,7 +2,6 @@
 
 ##### TODO:
 
-- header/navbar
 - introductory section
 - Socials
 - About me

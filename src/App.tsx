@@ -1,6 +1,9 @@
+import Introduction from "./components/introduction/Introduction";
+import "./App.css";
+
 function App() {
   return (
-    // Navbar container
+    // Introduction container
     // Socials container
     //     Socials buttons
     // About container
@@ -8,7 +11,9 @@ function App() {
     //     Project cards
     // Contact container
     // Footer container
-    <div></div>
+    <div>
+      <Introduction />
+    </div>
   );
 }
 

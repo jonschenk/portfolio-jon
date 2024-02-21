@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+    color:aliceblue;
+    letter-spacing: .4em;
+}
+
+.intro h2 {
+    background-color: transparent;
+    color:aliceblue;
+    letter-spacing: .2em;
+}
+
+.intro h2 span {
+    color:gold;
+    letter-spacing: .2em;
+}
+
+.intro p {
+    margin-top: 2%;
+    text-size-adjust: 120%;
+    color:aliceblue;
+    letter-spacing: .1em;
+}
