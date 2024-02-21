@@ -2,17 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    margin: 1rem 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    margin: 10%;
+    margin-top: -8%;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
 }
 
 .item img {
-    width: 75%;
-    order: 1;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
 
 .item h3, .item p {
+    margin-left: 5%;
+    margin-right: -100%;
     order: 2;
 }
 

@@ -11,6 +11,13 @@ const ProjectList = () => {
         imageUrl="src/assets/project-thumbnails/cgol.png"
         description="A web-based implementation of Conway's Game of Life using Typescript and Node.js."
       />
+
+      <ProjectItem
+        name="Prusa i3 MK3 Clay Retrofit"
+        link="https://github.com/jonschenk/Prusa-Firmware"
+        imageUrl="src/assets/project-thumbnails/prusa.png"
+        description="Modifying firmware on Prusa to work with special hardware for clay extrusion."
+      />
     </div>
   );
 };
