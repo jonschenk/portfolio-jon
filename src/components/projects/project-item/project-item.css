@@ -1,25 +1,19 @@
 .item {
-    display: flex;
-    justify-content: flex-start;
-    padding: 2%;
-    margin: 15%;
-    margin-top: -13%;
     background-color: rgba(0, 0, 0, 0.85);
     border-radius: 10px;
 }
 
 .item img {
-    justify-content: flex-start;
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width: 20%;
 }
 
 .item h3, .item p {
     order: 2;
     align-self: flex-start;
-    margin-left: 20%;
-    margin-right: -50%;
 }
 
 .item h3 {
