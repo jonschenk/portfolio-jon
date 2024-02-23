@@ -1,7 +1,6 @@
 import "./Introduction.css";
 
 // cool features to add:
-// - socials buttons
 // - "last seen working on" section
 
 const Introduction = () => {

@@ -1,0 +1,13 @@
+.tool-text-container h1 {
+    display:flex;
+    justify-content:flex-start;
+    margin-left: 25%;
+    color:#fff;
+}
+
+.img-container {
+    display:flex;
+    justify-content:flex-start;
+    align-items: row;
+    margin-left: 25%;
+}

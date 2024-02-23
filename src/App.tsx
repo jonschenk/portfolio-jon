@@ -1,5 +1,6 @@
 import HeaderBar from "./components/HeaderBar/HeaderBar";
 import Introduction from "./components/Introduction/Introduction";
+import MyFavoriteTools from "./components/MyFavoriteTools/MyFavoriteTools";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <>
       <HeaderBar />
       <Introduction />
+      <MyFavoriteTools />
     </>
   );
 }

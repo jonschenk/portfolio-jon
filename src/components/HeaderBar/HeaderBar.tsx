@@ -1,4 +1,3 @@
-import React from "react";
 import SocialButton from "../social-button/social-button";
 import "./HeaderBar.css";
 
