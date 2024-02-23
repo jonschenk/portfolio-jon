@@ -5,7 +5,7 @@ interface Props {
 
 const SocialButton: React.FC<Props> = ({ url, icon }) => {
   return (
-    <a href={url} className="btn btn-link no-border">
+    <a href={url} className="btn btn-link no-border" target="_blank">
       <img
         src={icon}
         alt="icon"

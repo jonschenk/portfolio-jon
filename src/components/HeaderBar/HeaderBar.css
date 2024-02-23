@@ -1,0 +1,12 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkedin-button {
+    filter: invert(1);
+}
+
+.button-container :hover {
+    cursor: pointer;
+}

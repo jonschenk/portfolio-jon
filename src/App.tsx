@@ -1,4 +1,5 @@
-import Introduction from "./components/introduction/Introduction";
+import HeaderBar from "./components/HeaderBar/HeaderBar";
+import Introduction from "./components/Introduction/Introduction";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
     //     Project cards
     // Contact container
     // Footer container
-    <div>
+    <>
+      <HeaderBar />
       <Introduction />
-    </div>
+    </>
   );
 }
 
