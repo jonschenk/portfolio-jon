@@ -1,24 +1,24 @@
 .intro {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text_container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 2rem;
 }
 
-
-.intro h1 {
-    color:aliceblue;
-    letter-spacing: .4em;
+.text_container span {
+    color: orange;
 }
 
-.intro h2 {
-    background-color: transparent;
-    letter-spacing: .2em;
-}
-
-.intro h2 span {
-    color:rgb(248, 95, 95);
-    letter-spacing: .2em;
+@media (max-width: 960px) {
+    .intro {
+        flex-direction: column;
+    }
 }
