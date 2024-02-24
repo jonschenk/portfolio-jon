@@ -13,4 +13,11 @@ html body {
   width: 100%;
 }
 
+@media (max-width: 960px) {
+  html body {
+    background-image: none;
+    background-color: #242424;
+  }
+}
+
 

@@ -1,5 +1,5 @@
 import HeaderBar from "./components/HeaderBar/HeaderBar";
-import Introduction from "./components/Introduction/Introduction";
+import Introduction from "./components/introduction/Introduction";
 import MyFavoriteTools from "./components/MyFavoriteTools/MyFavoriteTools";
 
 function App() {
