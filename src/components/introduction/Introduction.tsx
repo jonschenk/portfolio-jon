@@ -1,3 +1,4 @@
+import { Reveal } from "../Reveal";
 import "./Introduction.css";
 
 // cool features to add:
@@ -8,9 +9,10 @@ const Introduction = () => {
     <div className="intro">
       <div className="text_container">
         <h1>Hey! I'm Jon Schenk Jr. &#128075;</h1>
+
         <p>
-          I'm an aspiring <span>Full Stack Web Developer</span> based in
-          Newberg, OR &#127758;
+          An aspiring <span>Full Stack Web Developer</span> based in Newberg, OR
+          &#127758;
         </p>
       </div>
 
