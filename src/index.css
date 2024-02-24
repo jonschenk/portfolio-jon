@@ -1,4 +1,6 @@
 html body {
+  position: relative;
+  left: -10%;
   color: #242424;
   background-image: url(src/assets/bg/bg.svg);
   background-size: cover;
@@ -15,9 +17,8 @@ html body {
 
 @media (max-width: 960px) {
   html body {
+    left: 0%;
     background-image: none;
     background-color: #242424;
   }
 }
-
-

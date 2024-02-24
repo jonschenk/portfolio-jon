@@ -16,6 +16,7 @@ function MyFavoriteTools() {
           <Reveal>
             <div className="img-container">
               <img
+                id="typescript"
                 src="src/assets/tools/typescript-icon.svg"
                 alt="Typescript"
                 width="50"
@@ -71,6 +72,12 @@ function MyFavoriteTools() {
               />
             </div>
           </Reveal>
+
+          <div className="description">
+            <div className="ts">
+              <h2>Typescript</h2>
+            </div>
+          </div>
         </div>
       </div>
     </>

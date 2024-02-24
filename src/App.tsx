@@ -1,6 +1,7 @@
 import HeaderBar from "./components/HeaderBar/HeaderBar";
 import Introduction from "./components/introduction/Introduction";
 import MyFavoriteTools from "./components/MyFavoriteTools/MyFavoriteTools";
+import GitHubStatus from "./components/GitHubStatus/GitHubStatus";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
     <>
       <HeaderBar />
       <Introduction />
-      <MyFavoriteTools />
+      <GitHubStatus />
+      {/* <MyFavoriteTools /> */}
     </>
   );
 }

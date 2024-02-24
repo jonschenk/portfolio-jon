@@ -1,9 +1,9 @@
 .section-container {
-    margin-right: 6%;
     display:flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10%;
 }
 
 .section-container img {
@@ -23,7 +23,20 @@
 .img-container {
     display:flex;
     padding: .25%;
-    margin-bottom: 2%;
+}
+
+#ts.description {
+    display: none;
+    color: #fff;
+    text-align: center;
+    text-align-last: center;
+    font-size: large;
+    font-weight: 400;
+    font-style:italic;
+}
+
+#typescript.img-container:hover ~ #ts.description {
+    display: visible;
 }
 
 @media (max-width: 960px) {
