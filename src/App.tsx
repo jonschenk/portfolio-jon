@@ -12,7 +12,6 @@ function App() {
       <Introduction />
       <Divider />
       <GitHubStatus />
-      <Divider />
       {/* About container */}
       <MyFavoriteTools />
       {/* <Projects /> */}
