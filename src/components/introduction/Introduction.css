@@ -1,5 +1,5 @@
 .intro {
-    margin-top: 5%;
+    margin-top: 6.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +63,7 @@
     cursor: pointer;
     transition: 0.5s;
     animation: Gradient 1.5s ease infinite;
+    margin-bottom: 25%;
 }
 
 .download-resume-container button:hover {

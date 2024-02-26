@@ -17,10 +17,10 @@ const Introduction = () => {
                 loop: true,
                 delay: "natural",
                 strings: [
-                  "I'm an aspiring <span id='highlight'>Full Stack Developer</span>\u{1F30E}",
-                  "I'm also interested in <span id='highlight'>Software Engineering</span> \u{1F642}",
-                  "I'm from <span id='highlight'>Newberg, OR</span> \u{1F30E}",
-                  "I'm studying Computer Science at <span id='highlight'>George Fox University</span> \u{1F393}",
+                  "I'm an aspiring <span id='highlight'>Full Stack Developer</span> \u{1F4D1}",
+                  "I'm also interested in <span id='highlight'>Software Engineering</span> \u{1F4F2}",
+                  "I'm from <span id='highlight'>Dundee, OR</span> \u{1F30E}",
+                  "I'm studying <span id='highlight'>Computer Science</span> at <span id='highlight'>George Fox University</span> \u{1F393}",
                   "My favorite languages are <span id='highlight'>Typescript</span> and <span id='highlight'>Python</span> \u{1F4BB}",
                 ],
                 autoStart: true,
@@ -37,7 +37,7 @@ const Introduction = () => {
         </div>
       </div>
       <div className="download-resume-container">
-        <a href="src\assets\personal\jonschenkjrresume.pdf" download>
+        <a href="src\assets\jonschenkjrresume.pdf" download>
           <button>Download Resume</button>
         </a>
       </div>

@@ -38,6 +38,18 @@ function GitHubStatus() {
               {gitHubStatus.repoName}
             </a>
             <p>on {gitHubStatus.createdAt}</p>
+            <div className="github">
+              <h2>
+                You can check out my GitHub page{" "}
+                <a
+                  id="gh"
+                  href="https://www.github.com/jonschenk"
+                  target="_blank"
+                >
+                  here
+                </a>
+              </h2>
+            </div>
           </div>
         </Reveal>
       </div>
