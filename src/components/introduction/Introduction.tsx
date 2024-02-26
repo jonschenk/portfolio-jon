@@ -6,16 +6,16 @@ import Typewriter from "typewriter-effect";
 
 const Introduction = () => {
   return (
-    <>
+    <div className="main-container">
       <div className="intro">
         <div className="text_container">
-          <h1>Hey! I'm Jon Schenk Jr. &#128075;</h1>
+          <h1>Hey! &#128075; I'm Jon Schenk Jr.</h1>
 
           <div className="typewriter-container">
             <Typewriter
               options={{
                 loop: true,
-                delay: 30,
+                delay: "natural",
                 strings: [
                   "I'm an aspiring <span id='highlight'>Full Stack Developer</span>\u{1F30E}",
                   "I'm also interested in <span id='highlight'>Software Engineering</span> \u{1F642}",
@@ -26,7 +26,7 @@ const Introduction = () => {
                 autoStart: true,
               }}
               onInit={(typewriter) => {
-                typewriter.changeDeleteSpeed(40).start();
+                typewriter.start();
               }}
             />
           </div>
@@ -41,7 +41,7 @@ const Introduction = () => {
           <button>Download Resume</button>
         </a>
       </div>
-    </>
+    </div>
   );
 };
 

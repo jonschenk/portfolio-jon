@@ -9,18 +9,19 @@
 }
 
 .intro img {
+    margin-top: 10%;
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 100%;
     box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.9);
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .typewriter-container {
     display:flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 3%;
     color: #fff;
     font-size: 1.25em;
     height: 3em;
@@ -33,16 +34,13 @@
 }
 
 .text_container {
-    padding-right: 2%;
+    display: flex;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.text_container h1 {
-    margin-left: 8%;
-}
 
 .text_container h1, .typewriter-container {
     color: #fff;
@@ -65,7 +63,6 @@
     cursor: pointer;
     transition: 0.5s;
     animation: Gradient 1.5s ease infinite;
-    margin-bottom: 25%;
 }
 
 .download-resume-container button:hover {
