@@ -11,7 +11,7 @@ const Introduction = () => {
         <h1>Hey! I'm Jon Schenk Jr. &#128075;</h1>
 
         <p>
-          An aspiring <span>Full Stack Web Developer</span> based in Newberg, OR
+          An aspiring <span>Full Stack Developer</span> based in Newberg, OR
           &#127758;
         </p>
       </div>
