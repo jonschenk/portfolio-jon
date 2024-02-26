@@ -1,13 +1,8 @@
-## Portfolio Website
+### Developing personal portfolio website
 
-##### TODO:
+# TODO
 
-- introductory section
-- Socials
-- About me
-- Projects
-- Project cards
-- Contact me
+- About me (?)
+- Project section
+- Contact/Sent message functionality
 - Footer
-
-Photo by Osman Rana on Unsplash
