@@ -1,0 +1,10 @@
+hr.divider {
+    height: 10px;
+    opacity: 1;
+    width: 20%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 4%;
+    border: none;
+    background: linear-gradient(to right, #305cfc, #8024fc);
+}
