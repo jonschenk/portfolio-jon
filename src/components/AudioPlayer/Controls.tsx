@@ -1,8 +1,9 @@
 type ControlsProps = {
   onPlayClick: () => void;
+  isPlaying: boolean;
 };
 
-const Controls = ({ onPlayClick }: ControlsProps) => {
+const Controls = ({ onPlayClick, isPlaying }: ControlsProps) => {
   function onClick() {
     //not needed remove later
   }
@@ -18,7 +19,11 @@ const Controls = ({ onPlayClick }: ControlsProps) => {
       />
       <ImageButton
         className="mr-2 ml-2"
-        src={"src/assets/audio-player-icons/ic_play.svg"}
+        src={
+          isPlaying
+            ? "src/assets/audio-player-icons/ic_pause.svg"
+            : "src/assets/audio-player-icons/ic_play.svg"
+        }
         onClick={onPlayClick}
       />
       <ImageButton
