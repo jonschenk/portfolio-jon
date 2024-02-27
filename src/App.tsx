@@ -3,6 +3,7 @@ import Divider from "./components/Divider/Divider";
 import Introduction from "./components/introduction/Introduction";
 import MyFavoriteTools from "./components/MyFavoriteTools/MyFavoriteTools";
 import GitHubStatus from "./components/GitHubStatus/GitHubStatus";
+import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
 import Projects from "./components/projects/projects";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <GitHubStatus />
       {/* About container */}
       <MyFavoriteTools />
+      <Divider />
+      <AudioPlayer />
       {/* <Projects /> */}
       {/* Contact container */}
       {/* Footer container */}
