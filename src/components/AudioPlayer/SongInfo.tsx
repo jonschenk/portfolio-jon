@@ -1,9 +1,13 @@
 import "./SongInfo.css";
 
-const SongInfo = () => {
+type SongInfoProps = {
+  title?: string;
+};
+
+const SongInfo = ({ title }: SongInfoProps) => {
   return (
     <div className="song-info">
-      <span className="title">Title</span>
+      <span className="title">{title}</span>
     </div>
   );
 };

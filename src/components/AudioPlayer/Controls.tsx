@@ -1,21 +1,40 @@
 type ControlsProps = {
   onPlayClick: () => void;
+  onPrevClick: () => void;
+  onNextClick: () => void;
+  onRepeatClick: () => void;
+  onShuffleClick: () => void;
   isPlaying: boolean;
+  repeat: boolean;
+  shuffle: boolean;
 };
 
-const Controls = ({ onPlayClick, isPlaying }: ControlsProps) => {
+const Controls = ({
+  onPlayClick,
+  isPlaying,
+  onPrevClick,
+  onNextClick,
+  repeat,
+  onRepeatClick,
+  shuffle,
+  onShuffleClick,
+}: ControlsProps) => {
   function onClick() {
     //not needed remove later
   }
   return (
     <div className="flex flex-row mt-4">
       <ImageButton
-        src={"src/assets/audio-player-icons/ic_shuffle.svg"}
-        onClick={onClick}
+        src={
+          shuffle
+            ? "src/assets/audio-player-icons/ic_shuffle.svg"
+            : "src/assets/audio-player-icons/ic_shuffle_disabled.svg"
+        }
+        onClick={onShuffleClick}
       />
       <ImageButton
         src={"src/assets/audio-player-icons/ic_prev.svg"}
-        onClick={onClick}
+        onClick={onPrevClick}
       />
       <ImageButton
         className="mr-2 ml-2"
@@ -28,11 +47,15 @@ const Controls = ({ onPlayClick, isPlaying }: ControlsProps) => {
       />
       <ImageButton
         src={"src/assets/audio-player-icons/ic_next.svg"}
-        onClick={onClick}
+        onClick={onNextClick}
       />
       <ImageButton
-        src={"src/assets/audio-player-icons/ic_repeat.svg"}
-        onClick={onClick}
+        src={
+          repeat
+            ? "src/assets/audio-player-icons/ic_repeat.svg"
+            : "src/assets/audio-player-icons/ic_repeat_disabled.svg"
+        }
+        onClick={onRepeatClick}
       />
     </div>
   );

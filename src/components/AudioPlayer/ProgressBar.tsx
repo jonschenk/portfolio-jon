@@ -1,19 +1,34 @@
 import "./ProgressBar.css";
 
-const ProgressBar = () => {
+type ProgressBarProps = {
+  progress: number;
+  onChange: (value: number) => void;
+  leftLabel: string;
+  rightLabel: string;
+};
+
+const ProgressBar = ({
+  progress,
+  onChange,
+  leftLabel,
+  rightLabel,
+}: ProgressBarProps) => {
   return (
     <div className="input-container">
       <input
         type="range"
         min="1"
         max="100"
-        value={50}
+        value={progress}
         step="0.25"
         className="slider"
+        onChange={(event) => {
+          onChange(parseInt(event?.target.value));
+        }}
       />
       <div className="timestamps-container">
-        <span className="time">01:00</span>
-        <span className="time">02:00</span>
+        <span className="time">{leftLabel}</span>
+        <span className="time">{rightLabel}</span>
       </div>
     </div>
   );
