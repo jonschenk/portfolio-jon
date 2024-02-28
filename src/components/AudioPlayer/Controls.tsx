@@ -19,9 +19,6 @@ const Controls = ({
   shuffle,
   onShuffleClick,
 }: ControlsProps) => {
-  function onClick() {
-    //not needed remove later
-  }
   return (
     <div className="flex flex-row mt-4">
       <ImageButton

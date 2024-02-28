@@ -1,11 +1,9 @@
 import { useRef, useState } from "react";
-import { createAudioPlayer } from "./PlayerLogic/Player";
 import Controls from "./Controls";
 import ProgressBar from "./ProgressBar";
 import SongInfo from "./SongInfo";
 import playlist from "./PlayerLogic/Playlist";
 import "./AudioPlayer.css";
-import { PlayerState, InitialPlayerState } from "./PlayerLogic/Types";
 import useAudioPlayer from "./hooks";
 
 const AudioPlayer = () => {
