@@ -4,6 +4,7 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 
 .section-container img {
@@ -39,7 +40,6 @@
     }
 
     .img-container {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: space-between;
         align-items: center;

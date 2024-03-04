@@ -1,10 +1,10 @@
-import { useRef, useState } from "react";
 import Controls from "./Controls";
 import ProgressBar from "./ProgressBar";
 import SongInfo from "./SongInfo";
 import playlist from "./PlayerLogic/Playlist";
 import "./AudioPlayer.css";
 import useAudioPlayer from "./hooks";
+import Description from "./Description";
 
 const AudioPlayer = () => {
   const {

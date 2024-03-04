@@ -1,10 +1,30 @@
-hr.divider {
+hr.divider-large {
     height: 10px;
     opacity: 1;
     width: 50%;
     border-radius: 15px;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     border: none;
     background: linear-gradient(to right, #305cfc, #8024fc);
+}
+
+hr.divider-small {
+    height: 10px;
+    opacity: 1;
+    width: 10%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: none;
+    background: linear-gradient(to right, #305cfc, #8024fc);
+}
+
+@media (max-width: 960px) {
+
+    hr.divider-small {
+        width: 50%;
+    }
 }

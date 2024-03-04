@@ -22,7 +22,6 @@ const Introduction = () => {
                   "I'm from <span id='highlight'>Dundee, OR</span> \u{1F30E}",
                   "I'm studying <span id='highlight'>Computer Science</span> at <span id='highlight'>George Fox University</span> \u{1F393}",
                   "My favorite languages are <span id='highlight'>Typescript</span> and <span id='highlight'>Python</span> \u{1F4BB}",
-                  "I've been <span id='highlight'>producing, mixing,</span> and <span id='highlight'>mastering</span> music for over <span id='highlight'>5 years</span> \u{1F3B5}",
                 ],
                 autoStart: true,
               }}
@@ -34,7 +33,7 @@ const Introduction = () => {
         </div>
 
         <div className="image_container">
-          <img src="src\assets\personal\me.png" />
+          <img src="src\assets\personal\pfp.png" />
         </div>
       </div>
       <div className="download-resume-container">

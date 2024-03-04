@@ -1,3 +1,5 @@
+import "./Controls.css";
+
 type ControlsProps = {
   onPlayClick: () => void;
   onPrevClick: () => void;
@@ -20,37 +22,37 @@ const Controls = ({
   onShuffleClick,
 }: ControlsProps) => {
   return (
-    <div className="flex flex-row mt-4">
+    <div className="Buttons">
       <ImageButton
         src={
           shuffle
-            ? "src/assets/audio-player-icons/ic_shuffle.svg"
-            : "src/assets/audio-player-icons/ic_shuffle_disabled.svg"
+            ? "src/assets/audio-player-icons/shuffle-active.svg"
+            : "src/assets/audio-player-icons/shuffle-deactivated.svg"
         }
         onClick={onShuffleClick}
       />
       <ImageButton
-        src={"src/assets/audio-player-icons/ic_prev.svg"}
+        src={"src/assets/audio-player-icons/skip-back.svg"}
         onClick={onPrevClick}
       />
       <ImageButton
         className="mr-2 ml-2"
         src={
           isPlaying
-            ? "src/assets/audio-player-icons/ic_pause.svg"
-            : "src/assets/audio-player-icons/ic_play.svg"
+            ? "src/assets/audio-player-icons/pause.svg"
+            : "src/assets/audio-player-icons/play.svg"
         }
         onClick={onPlayClick}
       />
       <ImageButton
-        src={"src/assets/audio-player-icons/ic_next.svg"}
+        src={"src/assets/audio-player-icons/skip-forward.svg"}
         onClick={onNextClick}
       />
       <ImageButton
         src={
           repeat
-            ? "src/assets/audio-player-icons/ic_repeat.svg"
-            : "src/assets/audio-player-icons/ic_repeat_disabled.svg"
+            ? "src/assets/audio-player-icons/loop-active.svg"
+            : "src/assets/audio-player-icons/loop-deactivated.svg"
         }
         onClick={onRepeatClick}
       />
