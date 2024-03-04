@@ -1,10 +1,9 @@
 .section-container {
-    margin-top: 5%;
     display:flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .section-container img {
@@ -36,6 +35,8 @@
 
 @media (max-width: 960px) {
     .section-container {
+        margin-bottom:10%;
+        margin-top:10%;
         margin-right: 0;
     }
 

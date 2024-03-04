@@ -63,6 +63,7 @@
 
 @media (max-width: 960px) {
     .ctrl-container {
+        margin-top:2%;
         margin-left: 0%;
         margin-right: 0%;
     }

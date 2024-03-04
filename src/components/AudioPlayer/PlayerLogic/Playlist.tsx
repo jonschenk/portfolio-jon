@@ -7,15 +7,30 @@ import Divinity from "./Discography/Divinity (w Lunar).wav";
 import TheDifference from "./Discography/The Difference.wav";
 import SomethingThatINeed from "./Discography/Something That I Need.wav";
 import Reliance from "./Discography/reliance.wav";
+import UntitledBassTrack from "./Discography/Untitled Bass Track.wav";
 
 import { Playlist } from "./Types";
 
 const playlist: Playlist = [
   {
-    audioSrc: HIGH,
+    audioSrc: SomethingThatINeed,
     metadata: {
-      title: "H!GH",
-      year: "2023",
+      title: "Something That I Need",
+      year: "2022",
+    },
+  },
+  {
+    audioSrc: Overflow,
+    metadata: {
+      title: "Overflow",
+      year: "2022",
+    },
+  },
+  {
+    audioSrc: UntitledBassTrack,
+    metadata: {
+      title: "Untitled Bass Track",
+      year: "2022",
     },
   },
   {
@@ -40,17 +55,10 @@ const playlist: Playlist = [
     },
   },
   {
-    audioSrc: Overflow,
+    audioSrc: HIGH,
     metadata: {
-      title: "Overflow",
-      year: "2022",
-    },
-  },
-  {
-    audioSrc: SomethingThatINeed,
-    metadata: {
-      title: "Something That I Need",
-      year: "2022",
+      title: "H!GH",
+      year: "2023",
     },
   },
   {

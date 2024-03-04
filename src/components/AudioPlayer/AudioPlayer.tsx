@@ -4,7 +4,6 @@ import SongInfo from "./SongInfo";
 import playlist from "./PlayerLogic/Playlist";
 import "./AudioPlayer.css";
 import useAudioPlayer from "./hooks";
-import Description from "./Description";
 
 const AudioPlayer = () => {
   const {

@@ -1,14 +1,18 @@
 import "./Divider.css";
 
 type DividerProps = {
-  size?: ("small" | "large") | string;
+  size?: ("micro" | "small" | "large") | string;
 };
 
 function getDividerSize(size: DividerProps["size"] = "large") {
-  if (size === "small") {
-    return "divider-small";
-  } else {
-    return "divider-large";
+  switch (size) {
+    case "micro":
+      return "divider divider-micro";
+    case "small":
+      return "divider divider-small";
+    case "large":
+    default:
+      return "divider-large";
   }
 }
 

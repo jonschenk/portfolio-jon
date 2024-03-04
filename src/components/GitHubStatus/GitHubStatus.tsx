@@ -15,11 +15,19 @@ function GitHubStatus() {
       .then((response) => response.json())
       .then((res) => {
         const lastEvent = res[0];
-        setGitHubStatus({
-          repoName: lastEvent.repo.name,
-          createdAt: new Date(lastEvent.created_at).toLocaleDateString(),
-          link: "https://github.com/" + lastEvent.repo.name,
-        });
+        if (lastEvent.repo.name === "jonschenk/portfolio-jon") {
+          setGitHubStatus({
+            repoName: "The portfolio site you are looking at now!",
+            createdAt: new Date(lastEvent.created_at).toLocaleDateString(),
+            link: "https://github.com/jonschenk/portfolio-jon",
+          });
+        } else {
+          setGitHubStatus({
+            repoName: lastEvent.repo.name,
+            createdAt: new Date(lastEvent.created_at).toLocaleDateString(),
+            link: "https://github.com/" + lastEvent.repo.name,
+          });
+        }
       })
       .catch((err) => setError(err));
   }, []);

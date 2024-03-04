@@ -1,28 +1,33 @@
 import "./projects.css";
+import "bootstrap";
 
-const ProjectList = () => {
+const Projects = () => {
   return (
-    <>
-      <div
-        id="carouselExampleAutoplaying"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
+    <div className="carousel-container d-flex justify-content-center">
+      <div id="project-carousel" className="carousel slide" data-bs-ride="true">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="..." className="d-block w-100" alt="..." />
+            <img
+              src="src/assets/project-thumbnails/tempslide1.svg"
+              className="d-block w-100"
+              alt="..."
+            />
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
+            <a href="https://jonschenk.github.io/C-GoL/" target="_blank">
+              <img
+                id="cgol"
+                src="src/assets/project-thumbnails/cgol.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </a>
           </div>
         </div>
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-target="#project-carousel"
           data-bs-slide="prev"
         >
           <span
@@ -34,7 +39,7 @@ const ProjectList = () => {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-target="#project-carousel"
           data-bs-slide="next"
         >
           <span
@@ -44,8 +49,8 @@ const ProjectList = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
-export default ProjectList;
+export default Projects;

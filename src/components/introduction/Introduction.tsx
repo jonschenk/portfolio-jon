@@ -38,7 +38,7 @@ const Introduction = () => {
       </div>
       <div className="download-resume-container">
         <a href="src\assets\jonschenkjrresume.pdf" download>
-          <button>Download Resume</button>
+          <button>Download Resume &#128195;</button>
         </a>
       </div>
     </div>

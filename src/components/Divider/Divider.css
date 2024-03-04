@@ -13,7 +13,19 @@ hr.divider-large {
 hr.divider-small {
     height: 10px;
     opacity: 1;
-    width: 10%;
+    width: 15%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: none;
+    background: linear-gradient(to right, #305cfc, #8024fc);
+}
+
+hr.divider-micro {
+    height: 10px;
+    opacity: 1;
+    width: 5%;
     border-radius: 15px;
     margin: auto;
     margin-top: 2%;
@@ -23,6 +35,9 @@ hr.divider-small {
 }
 
 @media (max-width: 960px) {
+    hr.divider-micro {
+        width: 50%;
+    }
 
     hr.divider-small {
         width: 50%;

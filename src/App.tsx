@@ -1,10 +1,11 @@
 import HeaderBar from "./components/HeaderBar/HeaderBar";
 import Divider from "./components/Divider/Divider";
 import Introduction from "./components/introduction/Introduction";
+import AboutMe from "./components/AboutMe/AboutMe";
 import MyFavoriteTools from "./components/MyFavoriteTools/MyFavoriteTools";
 import GitHubStatus from "./components/GitHubStatus/GitHubStatus";
 import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
-import Description from "./components/AudioPlayer/Description";
+import AudioDescription from "./components/AudioPlayer/AudioDescription";
 import Projects from "./components/projects/projects";
 
 function App() {
@@ -13,11 +14,14 @@ function App() {
       <HeaderBar />
       <Introduction />
       <Divider />
+      <AboutMe />
+      <Divider size="micro" />
       <GitHubStatus />
-      {/* About container */}
       <MyFavoriteTools />
-      <Divider size="small" />
-      <Description />
+      <Divider />
+      <Projects />
+      <Divider />
+      <AudioDescription />
       <AudioPlayer />
       {/* <Projects /> */}
       {/* Contact container */}

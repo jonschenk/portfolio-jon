@@ -1,0 +1,48 @@
+.aboutme-container {
+    margin-top:2%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    flex-wrap: wrap;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.aboutme-container h1 {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: 4%;
+}
+
+.aboutme-container p {
+    font-size: 1.25rem;
+    text-align: center;
+    text-wrap:pretty;
+}
+
+#age-highlight {
+    font-family: 'Roboto', monospace;
+    font-weight: bold;
+    color: rgb(192, 157, 0);
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+#normal-highlight {
+    color: rgb(192, 157, 0);
+}
+
+#internship-status {
+    font-style: italic;
+}
+
+@media (max-width: 960px) {
+    .aboutme-container {
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom:10%;
+    }
+}
