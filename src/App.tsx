@@ -23,7 +23,6 @@ function App() {
       <Divider />
       <AudioDescription />
       <AudioPlayer />
-      {/* <Projects /> */}
       {/* Contact container */}
       {/* Footer container */}
     </>
