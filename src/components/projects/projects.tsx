@@ -7,11 +7,16 @@ const Projects = () => {
       <div id="project-carousel" className="carousel slide" data-bs-ride="true">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="src/assets/project-thumbnails/tempslide1.svg"
-              className="d-block w-100"
-              alt="..."
-            />
+            <a
+              href="https://github.com/jonschenk/prusa-firmware"
+              target="_blank"
+            >
+              <img
+                src="src/assets/project-thumbnails/prusa.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </a>
           </div>
           <div className="carousel-item">
             <a href="https://jonschenk.github.io/C-GoL/" target="_blank">
