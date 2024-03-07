@@ -11,7 +11,7 @@ import Projects from "./components/projects/projects";
 function App() {
   return (
     <>
-      <HeaderBar />
+      {/* <HeaderBar /> */}
       <Introduction />
       <Divider />
       <AboutMe />

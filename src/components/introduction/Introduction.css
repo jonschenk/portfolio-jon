@@ -1,9 +1,13 @@
-.intro {
-    margin-top: 20%;
+.main-container {
+    height: 92.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.intro {
+    margin-top: 5%;
 }
 
 .intro img {
@@ -27,6 +31,7 @@
     width: 30em;
     overflow: hidden;
 }
+
 
 #highlight {
     color: rgb(192, 157, 0);
@@ -63,11 +68,17 @@
     cursor: pointer;
     transition: 0.5s;
     animation: Gradient 1.5s ease infinite;
-    margin-bottom: 75%;
 }
 
 .download-resume-container button:hover {
     background-position: right center;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-top: 2.5%;
 }
 
 @media (max-width: 960px) {
@@ -77,9 +88,9 @@
     }
 
     .intro img {
-        width: 200px;
+        /* width: 200px;
         height: 200px;
-        margin-bottom: 20%;
+        margin-bottom: 20%; */
     }
 
     .typewriter-container {

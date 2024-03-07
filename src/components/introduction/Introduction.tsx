@@ -1,5 +1,6 @@
 import "./Introduction.css";
 import Typewriter from "typewriter-effect";
+import SocialButton from "../social-button/social-button";
 
 // cool features to add:
 // - "last seen working on" section
@@ -40,6 +41,21 @@ const Introduction = () => {
         <a href="src\assets\jonschenkjrresume.pdf" download>
           <button>Download Resume &#128195;</button>
         </a>
+      </div>
+
+      <div className="socials-container">
+        <SocialButton
+          url="https://www.github.com/jonschenk/"
+          icon="src/assets/social-icons/github.png"
+        />
+        <SocialButton
+          url="https://www.linkedin.com/in/jonschenkjr/"
+          icon="src/assets/social-icons/linkedin.png"
+        />
+        <SocialButton
+          url="https://app.joinhandshake.com/stu/users/32027948/"
+          icon="src/assets/social-icons/handshake.svg"
+        />
       </div>
     </div>
   );
