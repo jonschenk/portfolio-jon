@@ -1,14 +1,22 @@
-.carousel-container {
-    display: flex;
-    justify-content: center;
-  }
-
-#project-carousel {
-    max-width: 800px;
+.projects-container {
+    color:#fff;
 }
 
-@media (max-width: 960px) {
-    #project-carousel {
-        max-width: 400px;
-    }
+.projects-container h2{
+    display:flex;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project h3 {
+    margin-bottom: 1%;
+}
+
+.project p {
+    margin-top: 1%;
 }
