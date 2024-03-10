@@ -30,6 +30,7 @@
     height: 3em;
     width: 30em;
     overflow: hidden;
+    margin-bottom: 2%;
 }
 
 
@@ -76,7 +77,8 @@
 
 .socials-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 15%;
     margin-top: 2.5%;
 }
