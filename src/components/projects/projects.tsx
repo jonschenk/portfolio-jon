@@ -117,6 +117,33 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="project-item">
+          <div className="card text-center" id="cards">
+            <div className="card-header" id="header">
+              Project
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">This Website</h5>
+              <p className="card-text">
+                Creating this website was a project in itself! I used React.js
+                and Typescript to create this website <br /> and learned a lot
+                about web development in the process.
+              </p>
+              <a
+                href="https://www.github.com/jonschenk/portfolio-jon"
+                target="_blank"
+                className="btn btn-primary"
+                id="proj-button"
+              >
+                Website Repository
+              </a>
+            </div>
+
+            <div className="card-footer" id="footer">
+              February 2024 - Present
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

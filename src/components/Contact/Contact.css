@@ -1,0 +1,54 @@
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    
+}
+
+#contact-me label {
+    margin-top: 1%;
+}
+
+#input-name, #input-email, #input-message {
+    all:unset;
+    width: 15%;
+    border-radius: 10px;
+    background: #242424;
+    border: 1px solid #464646;
+    text-align: center;
+}
+
+#input-message {
+    margin-bottom: 1%;
+    height: 150px;
+}
+
+
+#send-email-button {
+    margin-top: 1%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #308ffc 0%, #8024fc 100%);
+    box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.5);
+    background-size: 200% auto;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: Gradient 1.5s ease infinite;
+    margin-bottom:1%;
+}
+
+#send-email-button:hover {
+    background-position: right center;
+}
+
+@media (max-width: 960px) {
+    #contact-me {
+        margin-top: 5%;
+    }
+    #input-name, #input-email, #input-message {
+        width: 50%;
+    }
+}

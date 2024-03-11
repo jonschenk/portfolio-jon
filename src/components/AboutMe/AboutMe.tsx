@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./AboutMe.css";
 import { Reveal } from "../Reveal";
 
@@ -24,7 +24,9 @@ function AboutMe() {
   return (
     <>
       <div className="aboutme-container">
-        <h1 id="aboutme-title">Who am I? &#129488;</h1>
+        <Reveal>
+          <h1 id="aboutme-title">Who am I? &#129488;</h1>
+        </Reveal>
         <Reveal>
           <p id="aboutme-description">
             {" "}
@@ -32,15 +34,10 @@ function AboutMe() {
             attending <span id="normal-highlight">George Fox University</span>{" "}
             and studying
             <span id="normal-highlight"> Computer Science</span>. It is
-            currently my <span id="normal-highlight">Junior year.</span> I am
-            passionate about{" "}
-            <span id="normal-highlight">software development</span> and I am
-            always looking for new opportunities to{" "}
-            <span id="normal-highlight">learn </span>and{" "}
-            <span id="normal-highlight">grow.</span> When I'm not coding, you
-            can find me <span id="normal-highlight">working out</span>,{" "}
-            <span id="normal-highlight">making music</span>, or diving into a
-            new hobby.
+            currently my Junior year. I am passionate about software development
+            and I am always looking for new opportunities to learn and grow.
+            When I'm not coding, you can find me working out, making music, or
+            diving into a new hobby.
             <br />
             <br />{" "}
             <span id="internship-status">

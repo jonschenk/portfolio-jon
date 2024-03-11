@@ -7,6 +7,7 @@ import GitHubStatus from "./components/GitHubStatus/GitHubStatus";
 import AudioPlayer from "./components/AudioPlayer/AudioPlayer";
 import AudioDescription from "./components/AudioPlayer/AudioDescription";
 import Projects from "./components/projects/projects";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <MyFavoriteTools />
       <Divider />
       <Projects />
+      <Divider />
+      <Contact />
       <Divider />
       <AudioDescription />
       <AudioPlayer />
