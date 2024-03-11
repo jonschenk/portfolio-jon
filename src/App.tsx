@@ -25,7 +25,6 @@ function App() {
       <Divider size="small" />
       <AudioDescription />
       <AudioPlayer />
-      <Divider />
       <FooterBar />
     </>
   );
