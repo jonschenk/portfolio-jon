@@ -1,4 +1,4 @@
-import HeaderBar from "./components/HeaderBar/HeaderBar";
+import FooterBar from "./components/FooterBar/FooterBar";
 import Divider from "./components/Divider/Divider";
 import Introduction from "./components/introduction/Introduction";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -12,7 +12,6 @@ import { Contact } from "./components/Contact/Contact";
 function App() {
   return (
     <>
-      {/* <HeaderBar /> */}
       <Introduction />
       <Divider />
       <AboutMe />
@@ -23,11 +22,11 @@ function App() {
       <Projects />
       <Divider />
       <Contact />
-      <Divider />
+      <Divider size="small" />
       <AudioDescription />
       <AudioPlayer />
-      {/* Contact container */}
-      {/* Footer container */}
+      <Divider />
+      <FooterBar />
     </>
   );
 }

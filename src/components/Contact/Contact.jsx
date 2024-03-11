@@ -9,16 +9,25 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const userName = form.current.user_name.value;
+    const userEmail = form.current.user_email.value;
+    const userMessage = form.current.message.value;
+
+    if (!userName || !userEmail || !userMessage) {
+      alert("All fields must be filled out");
+      return;
+    }
+
     emailjs
       .sendForm("service_dh2eyuq", "template_j9jmzq9", form.current, {
         publicKey: "DDIMZ8f9CJIckzT4M",
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("SUCCESS!");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED..." + error.text);
         }
       );
   };

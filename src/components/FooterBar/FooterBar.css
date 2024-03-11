@@ -1,0 +1,19 @@
+.footer-container {
+  color: #404040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer-container p {
+  text-align: center;
+}
+
+.footer-container p a{
+  text-decoration: none;
+  color: #404040;
+}
