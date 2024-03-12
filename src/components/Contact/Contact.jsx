@@ -39,10 +39,10 @@ export const Contact = () => {
         <label>Name</label>
         <input type="text" name="user_name" id="input-name" />
         <label>Email</label>
-        <input type="email" name="user_email" id="input-email"/>
+        <input type="email" name="user_email" id="input-email" />
         <label>Message</label>
-        <textarea name="message" id="input-message"/>
-        <input type="submit" value="Send" id="send-email-button"/>
+        <textarea name="message" id="input-message" />
+        <input type="submit" value="Send" id="send-email-button" />
       </form>
     </div>
   );
