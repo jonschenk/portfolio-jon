@@ -4,6 +4,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="projects-container">
+      <h1>Experience & Projects</h1>
       <ProjectItem
         cat="Internship"
         title="Tanoshi Product Team Intern"

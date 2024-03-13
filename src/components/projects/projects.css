@@ -1,5 +1,4 @@
 .projects-container {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,4 +8,12 @@
 
 .projects-container h1 {
     color: #fff;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 960px) {
+    .projects-container h1 {
+        margin-bottom: 8%;
+        margin-top: 3%;
+    }
 }

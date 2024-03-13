@@ -5,6 +5,6 @@ button {
 
 @media (max-width: 960px) {
     .Buttons img {
-        width: 40px;
+        width: 24px;
     }
 }
