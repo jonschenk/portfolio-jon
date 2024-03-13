@@ -6,7 +6,7 @@ html body {
   position: relative;
   left: -10%;
   color: #242424;
-  background-image: url(src/assets/bg/bg.svg);
+  background-image: url(/assets/bg/bg.svg);
   background-size: cover;
   min-height: 100%;
   height: auto;

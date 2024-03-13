@@ -26,33 +26,33 @@ const Controls = ({
       <ImageButton
         src={
           shuffle
-            ? "src/assets/audio-player-icons/shuffle-active.svg"
-            : "src/assets/audio-player-icons/shuffle-deactivated.svg"
+            ? "/assets/audio-player-icons/shuffle-active.svg"
+            : "/assets/audio-player-icons/shuffle-deactivated.svg"
         }
         onClick={onShuffleClick}
       />
       <ImageButton
-        src={"src/assets/audio-player-icons/skip-back.svg"}
+        src={"/assets/audio-player-icons/skip-back.svg"}
         onClick={onPrevClick}
       />
       <ImageButton
         className="mr-2 ml-2"
         src={
           isPlaying
-            ? "src/assets/audio-player-icons/pause.svg"
-            : "src/assets/audio-player-icons/play.svg"
+            ? "/assets/audio-player-icons/pause.svg"
+            : "/assets/audio-player-icons/play.svg"
         }
         onClick={onPlayClick}
       />
       <ImageButton
-        src={"src/assets/audio-player-icons/skip-forward.svg"}
+        src={"/assets/audio-player-icons/skip-forward.svg"}
         onClick={onNextClick}
       />
       <ImageButton
         src={
           repeat
-            ? "src/assets/audio-player-icons/loop-active.svg"
-            : "src/assets/audio-player-icons/loop-deactivated.svg"
+            ? "/assets/audio-player-icons/loop-active.svg"
+            : "/assets/audio-player-icons/loop-deactivated.svg"
         }
         onClick={onRepeatClick}
       />

@@ -1,13 +1,13 @@
-import HIGH from "/src/assets/Discography/H!GH.wav";
-import Cascade from "/src/assets/Discography/Cascade.wav";
-import Overflow from "/src/assets/Discography/Overflow.wav";
-import Tangerine from "/src/assets/Discography/Tangerine.wav";
-import SomethingComforting from "/src/assets/Discography/something comforting halftale cover.mp3";
-import Divinity from "/src/assets/Discography/Divinity (w Lunar).wav";
-import TheDifference from "/src/assets/Discography/The Difference.wav";
-import SomethingThatINeed from "/src/assets/Discography/Something That I Need.wav";
-import Reliance from "/src/assets/Discography/reliance.wav";
-import UntitledBassTrack from "/src/assets/Discography/Untitled Bass Track.wav";
+import HIGH from "/assets/Discography/H!GH.wav";
+import Cascade from "/assets/Discography/Cascade.wav";
+import Overflow from "/assets/Discography/Overflow.wav";
+import Tangerine from "/assets/Discography/Tangerine.wav";
+import SomethingComforting from "/assets/Discography/something comforting halftale cover.mp3";
+import Divinity from "/assets/Discography/Divinity (w Lunar).wav";
+import TheDifference from "/assets/Discography/The Difference.wav";
+import SomethingThatINeed from "/assets/Discography/Something That I Need.wav";
+import Reliance from "/assets/Discography/reliance.wav";
+import UntitledBassTrack from "/assets/Discography/Untitled Bass Track.wav";
 
 import { Playlist } from "./Types";
 

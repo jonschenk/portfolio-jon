@@ -32,11 +32,11 @@ const Introduction = () => {
         </div>
 
         <div className="image_container">
-          <img src="src\assets\personal\pfp.png" />
+          <img src="\assets\personal\pfp.png" />
         </div>
       </div>
       <div className="download-resume-container">
-        <a href="src\assets\jonschenkjrresume.pdf" download>
+        <a href="\assets\jonschenkjrresume.pdf" download>
           <button>Download Resume &#128195;</button>
         </a>
       </div>
@@ -44,15 +44,15 @@ const Introduction = () => {
       <div className="socials-container">
         <SocialButton
           url="https://www.github.com/jonschenk/"
-          icon="src/assets/social-icons/github.png"
+          icon="/assets/social-icons/github.png"
         />
         <SocialButton
           url="https://www.linkedin.com/in/jonschenkjr/"
-          icon="src/assets/social-icons/linkedin.png"
+          icon="/assets/social-icons/linkedin.png"
         />
         <SocialButton
           url="https://app.joinhandshake.com/stu/users/32027948/"
-          icon="src/assets/social-icons/handshake.svg"
+          icon="/assets/social-icons/handshake.svg"
         />
       </div>
     </div>
