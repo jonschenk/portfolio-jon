@@ -1,8 +1,1 @@
-### Developing personal portfolio website
-
-# TODO
-
-- About me (?)
-- Project section
-- Contact/Sent message functionality
-- Footer
+### Personal Portfolio Site Dev Repo
