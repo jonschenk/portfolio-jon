@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { Reveal } from "../Reveal";
 import "./MyFavoriteTools.css";
 
 function MyFavoriteTools() {
-  const [hoveredTool, setHoveredTool] = useState<string | null>(null);
   return (
     <>
       <div className="section-container">

@@ -8,7 +8,7 @@ function GitHubStatus() {
     createdAt: string;
     link: string;
   }>({ repoName: "", createdAt: "", link: "" });
-  const [error, setError] = useState([]);
+  const [_, setError] = useState([]);
 
   useEffect(() => {
     fetch("https://api.github.com/users/jonschenk/events")

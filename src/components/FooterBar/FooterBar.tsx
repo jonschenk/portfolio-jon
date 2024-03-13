@@ -1,4 +1,3 @@
-import SocialButton from "../social-button/social-button";
 import "./FooterBar.css";
 
 function FooterBar() {
