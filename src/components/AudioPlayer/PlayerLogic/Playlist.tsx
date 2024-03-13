@@ -13,6 +13,13 @@ import { Playlist } from "./Types";
 
 const playlist: Playlist = [
   {
+    audioSrc: Tangerine,
+    metadata: {
+      title: "Tangerine",
+      year: "2021",
+    },
+  },
+  {
     audioSrc: SomethingThatINeed,
     metadata: {
       title: "Something That I Need",
@@ -73,13 +80,6 @@ const playlist: Playlist = [
     metadata: {
       title: "The Difference (Cover)",
       year: "2022",
-    },
-  },
-  {
-    audioSrc: Tangerine,
-    metadata: {
-      title: "Tangerine",
-      year: "2021",
     },
   },
 ];

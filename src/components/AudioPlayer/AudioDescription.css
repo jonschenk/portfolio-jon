@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
     margin-left: 25%;
     margin-right: 25%;
     padding-bottom: 1%;
@@ -25,7 +24,7 @@
 }
 
 #highlight {
-    color: rgb(192, 157, 0);
+    color: #f0ff0f;
 }
 
 @media (max-width: 960px) {

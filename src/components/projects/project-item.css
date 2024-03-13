@@ -1,0 +1,47 @@
+
+.projects-container h5 {
+    color: #f0ff0f;
+}
+
+#header {
+    color:gray;
+    background-color: #202020
+}
+
+#cards {
+    margin-bottom: 5%;
+    background: black;
+    color: white;
+    width: 600px;
+    height: 275px;
+}
+
+#footer {
+    color: gray;
+}
+
+#proj-button {
+    margin-top: 3%;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #308ffc 0%, #8024fc 100%);
+    box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.5);
+    background-size: 200% auto;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: Gradient 1.5s ease infinite;
+}
+
+#proj-button:hover {
+    background-position: right center;
+}
+
+@media (max-width: 960px) {
+    #cards {
+        font-size: 14px;
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,4 +1,5 @@
 import FooterBar from "./components/FooterBar/FooterBar";
+import Alert from "./components/Alert/Alert";
 import Divider from "./components/Divider/Divider";
 import Introduction from "./components/introduction/Introduction";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -13,6 +14,8 @@ function App() {
   return (
     <>
       <Introduction />
+      <Alert />
+
       <Divider />
       <AboutMe />
       <Divider size="micro" />

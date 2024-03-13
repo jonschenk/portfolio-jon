@@ -10,9 +10,18 @@
     margin-top: 1%;
 }
 
+#contact-me #input-name, #contact-me #input-email {
+    width: 15%;
+    max-width: 200;
+}
+
+#contact-me #input-message {
+    width: 30%;
+    max-width: 500px; 
+}
+
 #input-name, #input-email, #input-message {
     all:unset;
-    width: 15%;
     border-radius: 10px;
     background: #242424;
     border: 1px solid #464646;
@@ -47,8 +56,9 @@
 @media (max-width: 960px) {
     #contact-me {
         margin-top: 5%;
+        margin-bottom: 5%;
     }
-    #input-name, #input-email, #input-message {
-        width: 50%;
+    #contact-me #input-name,#contact-me  #input-email,#contact-me #input-message {
+        width: 400px;
     }
 }

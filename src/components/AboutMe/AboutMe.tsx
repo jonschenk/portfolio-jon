@@ -30,14 +30,14 @@ function AboutMe() {
         <Reveal>
           <p id="aboutme-description">
             {" "}
-            I am a <span id="age-highlight">{Age()}</span> year old student
+            I'm a <span id="age-highlight">{Age()}</span> year old student
             attending <span id="normal-highlight">George Fox University</span>{" "}
             and studying
-            <span id="normal-highlight"> Computer Science</span>. It is
-            currently my Junior year. I am passionate about software development
-            and I am always looking for new opportunities to learn and grow.
-            When I'm not coding, you can find me working out, making music, or
-            diving into a new hobby.
+            <span id="normal-highlight"> Computer Science</span>. It's currently
+            my Junior year. I'm passionate about software development and I'm
+            always looking for new opportunities to learn and grow. When I'm not
+            making cool things with code, you can find me working out, making
+            music, or diving into a new hobby.
             <br />
             <br />{" "}
             <span id="internship-status">
