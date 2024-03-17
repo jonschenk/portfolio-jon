@@ -36,8 +36,9 @@ function AboutMe() {
             <span id="normal-highlight"> Computer Science</span>. It's currently
             my Junior year. I'm passionate about software development and I'm
             always looking for new opportunities to learn and grow. When I'm not
-            making cool things with code, you can find me working out, making
-            music, or diving into a new hobby.
+            making cool things with code, you can find me working out, playing
+            guitar, ukulele, piano, bass, drums, or some other random
+            instrument, producing music, or diving into a new hobby.
             <br />
             <br />{" "}
             <span id="internship-status">
